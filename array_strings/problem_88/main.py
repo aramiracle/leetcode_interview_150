@@ -17,7 +17,7 @@ def main():
     # Iterate through test cases
     for i in range(0, len(lines), 2):
         # First line: inputs
-        nums1_str, m_str, nums2_str, n_str = lines[i].split(';', 3)
+        nums1_str, m_str, nums2_str, n_str = lines[i].split(';')
         nums1 = parse_list(nums1_str)
         m = int(m_str.strip())
         nums2 = parse_list(nums2_str)
