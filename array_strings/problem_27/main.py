@@ -33,7 +33,7 @@ def main():
 
         # Print result
         print(f"Input: val={val}, nums1={nums_str}")
-        print(f"Implemeted: {k}, {nums[:k]}")
+        print(f"Result: {k}, {nums[:k]}")
         print(f"Expected: {k_expected}, {nums_expected}")
         print(f"Pass: {k == k_expected and set(nums[:k]) == set(nums_expected[:k])}\n")
 
