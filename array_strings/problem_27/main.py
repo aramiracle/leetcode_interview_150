@@ -24,9 +24,9 @@ def main():
         val = int(val_str.strip())
 
         # Second line: expected outputs
-        k_str, nums_str = lines[i+1].split(';')
+        k_str, nums_expected_str = lines[i+1].split(';')
         k_expected = int(k_str.strip())
-        nums_expected = parse_list(nums_str)
+        nums_expected = parse_list(nums_expected_str)
 
         # Run
         k = sol.removeElement(nums, val)
