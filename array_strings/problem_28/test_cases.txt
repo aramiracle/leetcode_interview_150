@@ -1,0 +1,8 @@
+"sadbutsad"; "sad"
+0
+
+"leetcode"; "leeto"
+-1
+
+"abc"; "c"
+2
