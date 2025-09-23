@@ -1,0 +1,8 @@
+"abc"; "ahbgdc"
+True
+
+"axc"; "ahbgdc"
+False
+
+"abcd"; "adbgdbca"
+False
