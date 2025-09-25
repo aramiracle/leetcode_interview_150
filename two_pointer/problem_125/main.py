@@ -19,7 +19,7 @@ def main():
 
         # Second line: expected output
         expected_str = lines[i+1].strip()
-        expected = bool(expected_str)
+        expected = expected_str == "True"
 
         # Run
         result = sol.isPalindrome(string)
