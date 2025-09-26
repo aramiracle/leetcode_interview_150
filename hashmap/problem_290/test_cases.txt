@@ -1,0 +1,8 @@
+"abba"; "dog cat cat dog"
+True
+
+"abba"; "dog cat cat fish"
+False
+
+"aaaa"; "dog cat cat dog"
+False
