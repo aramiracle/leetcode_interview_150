@@ -1,0 +1,8 @@
+"egg"; "add"
+True
+
+"foo"; "bar"
+False
+
+"title"; "paper"
+True
