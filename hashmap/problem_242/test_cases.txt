@@ -1,0 +1,5 @@
+"anagram"; "nagaram"
+True
+
+"rat"; "car"
+False
