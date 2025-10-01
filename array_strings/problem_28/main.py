@@ -5,7 +5,7 @@ def parse_list_string(s: str):
     s = s.strip()
     if s == "[]":
         return []
-    return [x.strip().strip('"').strip("'") for x in s[1:-1].split(";")]
+    return [x.strip().strip('"').strip("'") for x in s[1:-1].split(",")]
 
 def main():
     with open("test_cases.txt", "r") as f:
